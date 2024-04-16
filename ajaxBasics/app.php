@@ -7,10 +7,24 @@
 </head>
 <body>
 
+<div class="myClass" >Uno</div>
+
+<div id="myId">Dos</div>
+
+<div id="myName">Tres</div>
+
 <script>
 
-const myName = "Shakil Khan";
-console.log(myName);
+const myClass = document.querySelector(".myClass");
+      myClass.innerHTML = "<h1> My class Message</h1>";
+
+const myId = document.getElementById("myId");
+        myId.innerHTML = "<p><i> Pasa pasa</i></p>";
+
+
+const myName = document.querySelector("#myName");
+      myName.innerHTML = "<b> My name tag</b>";
+
 </script>
     
 </body>
