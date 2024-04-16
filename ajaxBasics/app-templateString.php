@@ -15,9 +15,10 @@
 <script>
 
 const name = "Shakil Khan";
+const country = "Pakistan";
 const myId = document.querySelector('#myId');
       //myId.innerHTML = "My name is: " + name;
-      myId.innerHTML = `<h1>My name is: ${name}</h1>`;
+      myId.innerHTML = `<h1>My name is: ${name} and I'm from ${country}</h1>`;
 
 
 </script>
