@@ -7,8 +7,10 @@
 </head>
 <body>
 
-<form action="">
+<form>
     <input type="text" id="name" placeholder="Enter Name"><br><br>
+    <input type="email" id="email" placeholder="Enter Email"><br><br>
+    <input type="password" id="password" placeholder="Enter Password"><br><br>
     <input type="button" value="Send" id="btn">
 </form>
 
